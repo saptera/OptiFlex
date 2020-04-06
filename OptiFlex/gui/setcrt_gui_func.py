@@ -1,7 +1,7 @@
 import sys
 import os
 import numpy as np
-from gui.setcrt_gui_desg import *
+from OptiFlex.gui.setcrt_gui_desg import *
 
 # Parallel processing settings
 workers = 8

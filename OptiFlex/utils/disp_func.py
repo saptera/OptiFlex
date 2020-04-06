@@ -5,7 +5,7 @@ import numpy as np
 from scipy.interpolate import CubicSpline
 import matplotlib.pyplot as plt
 import matplotlib.ticker as tkr
-from data.lbl_proc import jsl_read, jsl_plot, hml_read, hml_plot, hml_jntplot, lbl_merge
+from OptiFlex.data.lbl_proc import jsl_read, jsl_plot, hml_read, hml_plot, hml_jntplot, lbl_merge
 
 """Function list:
 img_jsl_plt(img_file, jsl_file, color_list, annotate):  Create a labelled image for manual verification.

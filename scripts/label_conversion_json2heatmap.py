@@ -2,8 +2,8 @@ import os
 import multiprocessing as mp
 import queue
 import cv2
-from utils.base_func import read_pathlist_file, make_outdirs, prog_print
-from data.lbl_proc import jsl_read, lblconv_json2heat, hml_write, hml_verify
+from OptiFlex.utils.base_func import read_pathlist_file, make_outdirs, prog_print
+from OptiFlex.data.lbl_proc import jsl_read, lblconv_json2heat, hml_write, hml_verify
 
 """This SCRIPT converts JSON label files in a dataset to HeatMap label files.
    All folders defined including sub-folders will be scanned!

@@ -1,9 +1,9 @@
 import os
 import multiprocessing as mp
 import cv2
-from utils.base_func import make_outdirs, read_pathlist_file
-from data.img_proc import imjsl_resize, imjsl_aug
-from data.lbl_proc import jsl_read, jsl_write, jsl_verify
+from OptiFlex.utils.base_func import make_outdirs, read_pathlist_file
+from OptiFlex.data.img_proc import imjsl_resize, imjsl_aug
+from OptiFlex.data.lbl_proc import jsl_read, jsl_write, jsl_verify
 
 """This SCRIPT creates augmented dataset(s) with corresponding label file by random flipping and/or rotating.
    Specially defined CSV files will be used in this script, whose 1st-col is set name, 2nd-col is set path.

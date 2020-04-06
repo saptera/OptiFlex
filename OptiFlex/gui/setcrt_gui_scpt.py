@@ -2,10 +2,10 @@ import os
 import multiprocessing as mp
 import numpy as np
 import cv2
-from utils.base_func import os_rand_range, make_outdirs, read_pathlist_file
-from data.img_proc import imjsl_resize, imjsl_aug, imhml_resize, imhml_flip, imhml_rotate, imhml_aug
-from data.lbl_proc import jsl_read, jsl_write, jsl_verify, hml_read, hml_write, hml_verify
-from gui import setcrt_gui_glbv
+from OptiFlex.utils.base_func import os_rand_range, make_outdirs, read_pathlist_file
+from OptiFlex.data.img_proc import imjsl_resize, imjsl_aug, imhml_resize, imhml_flip, imhml_rotate, imhml_aug
+from OptiFlex.data.lbl_proc import jsl_read, jsl_write, jsl_verify, hml_read, hml_write, hml_verify
+from OptiFlex.gui import setcrt_gui_glbv
 
 setcrt_gui_glbv.init()
 # Parallel processing settings

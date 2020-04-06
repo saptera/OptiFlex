@@ -2,7 +2,7 @@ import random
 import numpy as np
 from keras.models import load_model
 from timeit import default_timer as timer
-from data.dataset_func import images_to_tensor
+from OptiFlex.data.dataset_func import images_to_tensor
 
 """This SCRIPT measures the inference speed of LEAP, DeepLabCut, FlexibleBaseline, and StackedDenseNet
 """

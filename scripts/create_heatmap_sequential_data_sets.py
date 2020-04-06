@@ -2,9 +2,9 @@ import os
 import multiprocessing as mp
 import numpy as np
 import cv2
-from utils.base_func import os_rand_range, make_outdirs, read_pathlist_file
-from data.img_proc import imhml_resize, imhml_flip, imhml_rotate
-from data.lbl_proc import hml_read, hml_write, hml_verify
+from OptiFlex.utils.base_func import os_rand_range, make_outdirs, read_pathlist_file
+from OptiFlex.data.img_proc import imhml_resize, imhml_flip, imhml_rotate
+from OptiFlex.data.lbl_proc import hml_read, hml_write, hml_verify
 
 """This SCRIPT creates augmented dataset(s) with corresponding HeatMap label file by random flipping and/or rotating.
    Different from [create_augmented_heatmap_set.py] this SCRIPT lock the flipping and rotating within one set.

@@ -1,10 +1,10 @@
 import os
 import multiprocessing as mp
 import cv2
-from utils.base_func import mk_outdir
-from data.img_proc import img_bkgsub
-from data.vid_proc import get_frm, frm_split
-from data.locomouse_func import locomouse_paracsv_read, locomouse_tail_sort
+from OptiFlex.utils.base_func import mk_outdir
+from OptiFlex.data.img_proc import img_bkgsub
+from OptiFlex.data.vid_proc import get_frm, frm_split
+from OptiFlex.data.locomouse_func import locomouse_paracsv_read, locomouse_tail_sort
 
 """This SCRIPT automatically process video files from LocoMouse system and sorting their standard JSON files.
    All folders defined including sub-folders will be scanned!

@@ -1,8 +1,8 @@
 import os
 from keras.models import load_model
-from data.lbl_proc import hml_write
-from data.dataset_func import images_to_tensor
-from training.post_train import get_joint_list, tensor_to_heatmap_file
+from OptiFlex.data.lbl_proc import hml_write
+from OptiFlex.data.dataset_func import images_to_tensor
+from OptiFlex.training.post_train import get_joint_list, tensor_to_heatmap_file
 
 """This SCRIPT generates a folder of base model predictions for a given folder of images and a pre-trained base model
 """

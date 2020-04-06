@@ -1,8 +1,8 @@
 import os
 import statistics as stat
-from data.lbl_proc import jsl_read
-from utils.eval_func import get_ref_lbl, predict_eval
-from utils.base_func import prog_print
+from OptiFlex.data.lbl_proc import jsl_read
+from OptiFlex.utils.eval_func import get_ref_lbl, predict_eval
+from OptiFlex.utils.base_func import prog_print
 
 """This SCRIPT evaluate the quality of predicted labels.
 """

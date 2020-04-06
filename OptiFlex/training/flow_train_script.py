@@ -1,9 +1,9 @@
 import sys
 import datetime
-from models.OpticalFlow import flow_model
-from utils.eval_func import grp_eval_pck
-from training.train_func import train_fast_flow_generator
-from training.post_train import save_record, fast_flow_inference, get_joint_list, print_pck
+from OptiFlex.models.OpticalFlow import flow_model
+from OptiFlex.utils.eval_func import grp_eval_pck
+from OptiFlex.training.train_func import train_fast_flow_generator
+from OptiFlex.training.post_train import save_record, fast_flow_inference, get_joint_list, print_pck
 
 """This SCRIPT generates a folder of base model predictions for a given folder of images and a pre-trained base model
 """

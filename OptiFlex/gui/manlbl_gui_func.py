@@ -3,9 +3,9 @@ import os
 import copy
 import csv
 import cv2
-from gui.manlbl_gui_desg import *
-from data.vid_proc import get_frm
-from data.lbl_proc import jsl_read, jsl_write
+from OptiFlex.gui.manlbl_gui_desg import *
+from OptiFlex.data.vid_proc import get_frm
+from OptiFlex.data.lbl_proc import jsl_read, jsl_write
 
 
 # Global definitions  -----------------------------------------------------------------------------------------------  #

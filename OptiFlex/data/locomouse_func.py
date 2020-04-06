@@ -1,9 +1,9 @@
 import os
 import csv
 import cv2
-from utils.base_func import mk_outdir
-from data.vid_proc import vid_frm_get, frm_split
-from data.lbl_proc import jsl_read, jsl_write
+from OptiFlex.utils.base_func import mk_outdir
+from OptiFlex.data.vid_proc import vid_frm_get, frm_split
+from OptiFlex.data.lbl_proc import jsl_read, jsl_write
 
 """Function list:
 locomouse_paracsv_read(para_csv):  Read LocoMouse recording parameter CSV file.

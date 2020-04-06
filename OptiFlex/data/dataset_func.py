@@ -1,8 +1,8 @@
 import os
 import cv2
 import numpy as np
-from data.lbl_proc import hml_read
-from data.lbl_proc import hm_optical_warp
+from OptiFlex.data.lbl_proc import hml_read
+from OptiFlex.data.lbl_proc import hm_optical_warp
 
 """Function list:
 # info extraction functions:

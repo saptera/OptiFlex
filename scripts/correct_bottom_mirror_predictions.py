@@ -1,7 +1,7 @@
 import os
-from utils.base_func import make_outdirs, prog_print
-from data.lbl_proc import hml_read, jsl_write, lblconv_heat2json
-from data.post_pred import btm_mirror_paw_fix
+from OptiFlex.utils.base_func import make_outdirs, prog_print
+from OptiFlex.data.lbl_proc import hml_read, jsl_write, lblconv_heat2json
+from OptiFlex.data.post_pred import btm_mirror_paw_fix
 
 """This SCRIPT automatically correct Bottom-Mirror type setup paw predictions.
 """

@@ -4,9 +4,9 @@ import json
 import pickle
 import collections
 import numpy as np
-from utils.disp_func import img_hml_plt, img_jsl_plt
-from data.lbl_proc import hml_write
-from data.dataset_func import images_to_tensor, get_range_tensor
+from OptiFlex.utils.disp_func import img_hml_plt, img_jsl_plt
+from OptiFlex.data.lbl_proc import hml_write
+from OptiFlex.data.dataset_func import images_to_tensor, get_range_tensor
 
 
 """Function list:

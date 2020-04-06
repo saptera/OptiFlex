@@ -1,7 +1,7 @@
 import os
 import cv2
-from utils.base_func import x64_sys
-from utils.disp_func import img_jsl_plt
+from OptiFlex.utils.base_func import x64_sys
+from OptiFlex.utils.disp_func import img_jsl_plt
 
 """This SCRIPT automatically create a display window for images in defined directory with labels plotted on.
 """

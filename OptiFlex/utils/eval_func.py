@@ -2,8 +2,8 @@ import os
 import copy
 import math
 import numpy as np
-from utils.base_func import prog_print
-from data.lbl_proc import jsl_read, hml_read
+from OptiFlex.utils.base_func import prog_print
+from OptiFlex.data.lbl_proc import jsl_read, hml_read
 
 """Function list:
 get_ref_lbl(lbl_data, bb_meas):  Calculate a reference label data from original label data.

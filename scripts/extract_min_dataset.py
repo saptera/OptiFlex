@@ -1,7 +1,7 @@
 import sys
 import shutil
 import random
-from data.dataset_func import get_filenames
+from OptiFlex.data.dataset_func import get_filenames
 
 
 """This SCRIPT extracts a dataset of smaller size from original dataset

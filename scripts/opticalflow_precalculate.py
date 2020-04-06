@@ -10,8 +10,8 @@ import zlib
 import pickle as pkl
 import numpy as np
 import cv2
-from data.lbl_proc import hml_read, hm_optical_warp
-from utils.base_func import make_outdirs
+from OptiFlex.data.lbl_proc import hml_read, hm_optical_warp
+from OptiFlex.utils.base_func import make_outdirs
 
 """This SCRIPT preprocess OpticalFlow for accelerate model training.
 """

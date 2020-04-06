@@ -1,7 +1,7 @@
 import copy
 import numpy as np
 import cv2
-from utils.base_func import os_rand_range
+from OptiFlex.utils.base_func import os_rand_range
 
 """Function list:
 # Image only functions:

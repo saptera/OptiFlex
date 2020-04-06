@@ -2,9 +2,9 @@ import os
 import multiprocessing as mp
 import queue
 import cv2
-from utils.base_func import make_outdirs, prog_print
-from data.img_proc import img_bkgsub
-from data.vid_proc import get_fixcam_bkg
+from OptiFlex.utils.base_func import make_outdirs, prog_print
+from OptiFlex.data.img_proc import img_bkgsub
+from OptiFlex.data.vid_proc import get_fixcam_bkg
 
 """This SCRIPT preprocess images to meet the requirement of model inference predictions.
    All folders defined including sub-folders will be scanned!

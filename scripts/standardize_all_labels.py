@@ -1,6 +1,6 @@
 import os
-from data.lbl_proc import jsl_read, jsl_write, jsl_verify
-from utils.base_func import altmk_outdirs, prog_print
+from OptiFlex.data.lbl_proc import jsl_read, jsl_write, jsl_verify
+from OptiFlex.utils.base_func import altmk_outdirs, prog_print
 
 """This SCRIPT automatically verifies all required labels in defined folder.
    Images and corresponding label files must be in the same folder!

@@ -1,7 +1,7 @@
 import os
 import cv2
-from utils.disp_func import img_jsl_plt
-from utils.base_func import altmk_outdirs, prog_print
+from OptiFlex.utils.disp_func import img_jsl_plt
+from OptiFlex.utils.base_func import altmk_outdirs, prog_print
 
 """This SCRIPT automatically create images in defined directory with labels plotted on.
 """

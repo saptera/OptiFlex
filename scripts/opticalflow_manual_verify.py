@@ -2,7 +2,7 @@ import os
 import copy
 import numpy as np
 import cv2
-from data.lbl_proc import hml_read, hm_optical_warp, hml_plot
+from OptiFlex.data.lbl_proc import hml_read, hm_optical_warp, hml_plot
 
 """This SCRIPT helps to pre-check the quality of OpticalFlow parameters.
 """

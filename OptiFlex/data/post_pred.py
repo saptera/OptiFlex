@@ -4,7 +4,7 @@ import numpy as np
 from skimage import io as ski_io
 from skimage import feature as ski_ft
 import matplotlib.pyplot as plt
-from data.lbl_proc import hml_read, hml_jntplot
+from OptiFlex.data.lbl_proc import hml_read, hml_jntplot
 
 """Function list:
 hmpred_unravel(hm_pred):  Get possible feature coordinates form predicted HeatMap file.

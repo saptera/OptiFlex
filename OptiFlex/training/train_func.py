@@ -1,7 +1,7 @@
 import os
 import numpy as np
-from data.lbl_proc import hml_read
-from data.dataset_func import get_filenames, path_to_hm, path_to_img
+from OptiFlex.data.lbl_proc import hml_read
+from OptiFlex.data.dataset_func import get_filenames, path_to_hm, path_to_img
 
 """Function list:
 # data generators:

@@ -5,7 +5,7 @@ import zlib
 import numpy as np
 from scipy import stats
 import cv2
-from utils.base_func import rand_color
+from OptiFlex.utils.base_func import rand_color
 
 """Function list:
 # JSON type label file functions:

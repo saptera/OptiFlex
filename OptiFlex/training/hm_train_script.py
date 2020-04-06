@@ -1,12 +1,12 @@
 import sys
 import datetime
-from models.DeepPoseKit import stacked_densenet
-from models.DeepLabCut import deeplabcut
-from models.LEAP import LEAP
-from models.FlexibleBaseline import deconv_resnet_model, deconv_resnet_model_small, deconv_resnet_model_reduced
-from utils.eval_func import grp_eval_pck
-from training.train_func import train_generator
-from training.post_train import save_record, inference, get_joint_list, print_pck
+from OptiFlex.models.DeepPoseKit import stacked_densenet
+from OptiFlex.models.DeepLabCut import deeplabcut
+from OptiFlex.models.LEAP import LEAP
+from OptiFlex.models.FlexibleBaseline import deconv_resnet_model, deconv_resnet_model_small, deconv_resnet_model_reduced
+from OptiFlex.utils.eval_func import grp_eval_pck
+from OptiFlex.training.train_func import train_generator
+from OptiFlex.training.post_train import save_record, inference, get_joint_list, print_pck
 
 """This SCRIPT generates a folder of base model predictions for a given folder of images and a pre-trained base model
 """
