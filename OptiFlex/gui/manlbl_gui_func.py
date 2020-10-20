@@ -60,11 +60,11 @@ class ControlViewer(QtWidgets.QMainWindow, Ui_ControlViewer):
         self.frame_selector_limiter()
         self.statusBar.showMessage("Ready!")
         self.setWindowFlag(QtCore.Qt.WindowCloseButtonHint, False)
-        # Set file saving flag contorol
+        # Set file saving flag control
         self.savemodeGroup.buttonClicked.connect(self.set_saving_flag)
-        # Set frame control short cut keys
-        self.prevButton.setShortcut("A")
-        self.nextButton.setShortcut("D")
+        # Set frame control signaling
+        self.prevButton.clicked.connect(self.prev_press_event)
+        self.nextButton.clicked.connect(self.next_press_event)
         # Update frame selection controls
         self.frameInitial.valueChanged['int'].connect(self.frame_selection_update)
         self.frameStep.valueChanged['int'].connect(self.frame_selection_update)
@@ -133,6 +133,14 @@ class ControlViewer(QtWidgets.QMainWindow, Ui_ControlViewer):
         frm_msg = " | Current frame: %d | Progress: %d/%d - %.2f%%" \
             % (self.frameSlider.value(), self.cnt_frm + 1, self.tot_frm, (self.cnt_frm + 1) / self.tot_frm * 100)
         com_sig.frm_info_sig.emit(self.frameSlider.value(), frm_msg)
+
+    def prev_press_event(self):
+        if saving:
+            manlbl_file_io(self.frameSlider.value())
+
+    def next_press_event(self):
+        if saving:
+            manlbl_file_io(self.frameSlider.value())
 
     def frame_signal(self, val):
         # File operation
