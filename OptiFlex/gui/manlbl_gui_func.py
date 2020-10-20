@@ -43,8 +43,8 @@ def manlbl_file_io(idx):
         cv2.imwrite(os.path.join(out_dir, frm_file), frm)
     # Write label
     lst_lbl = []  # INIT VAR
-    for i in range(len(lbl_dat)):
-        lst_lbl.append(copy.deepcopy(lbl_dat[i]))
+    for k in lbl_dat:
+        lst_lbl.append(copy.deepcopy(lbl_dat[k]))
     jsl_write(os.path.join(out_dir, lbl_file), lst_lbl)
 
 
